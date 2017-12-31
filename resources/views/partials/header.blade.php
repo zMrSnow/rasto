@@ -12,7 +12,7 @@
                 </div>
             </li>
             <li class="col-12 col-md-4 col-lg-3 row">
-                <span class="fa fa-info-circle fa-2x"></span>
+                <span class="fa fa-info fa-2x"></span>
                 <div class="text-left">
                     <p><strong>IČO:</strong> 000 000</p>
                     <p><strong>DIČ:</strong> 000 000</p>
@@ -27,7 +27,7 @@
             </li>
         </ul>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

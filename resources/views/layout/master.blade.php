@@ -12,9 +12,30 @@
 </head>
 <body>
 @include("partials.header")
+@include("partials.slider")
+
+@include("partials.service")
 
 
 <script src="{{asset("js/jquery-3.2.1.min.js")}}"></script>
 <script src="{{asset("js/bootstrap.min.js")}}"></script>
+
+<script>
+    /* SCROLL FIXED NAV */
+    $(document).ready(function(){
+
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#nav').addClass("fixed-top");
+                } else {
+                    $('#nav').removeClass("fixed-top");
+                }
+            });
+        });
+
+    });
+
+</script>
 </body>
 </html>

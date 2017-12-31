@@ -1,4 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+   /* font-family: 'Open Sans', sans-serif;*/
+}
 li {
     list-style: none;
 }
@@ -7,17 +11,26 @@ li {
     color: #32A9DB;
 }
 #nav-info li div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
     padding-top: 25px;
 }
 #nav-info li div p {
     margin: -5px;
 }
 #nav {
-    background: #323946!important;
+    background: #323946;
 }
 .nav-link {
     font-weight: 700;
 }
 .nav-link.active {
     color: #43B4E4!important;
+}
+.ser-des {
+    font-weight: 100!important;
+    font-size: 14px;
+}
+.f-20 {
+    font-size: 20px;
 }

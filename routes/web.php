@@ -13,4 +13,9 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->name("home");
+
+
+Route::view("/acp", "acp.login");
+
+Route::post("/acp", "CustomAuthController@login")->name("acp.login");
