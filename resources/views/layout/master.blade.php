@@ -12,6 +12,9 @@
 </head>
 <body>
 @include("partials.header")
+@include("partials.slider")
+
+@include("partials.service")
 
 
 <script src="{{asset("js/jquery-3.2.1.min.js")}}"></script>
