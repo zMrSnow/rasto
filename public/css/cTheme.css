@@ -1,0 +1,23 @@
+
+li {
+    list-style: none;
+}
+#nav-info li span {
+    padding: 25px;
+    color: #32A9DB;
+}
+#nav-info li div {
+    padding-top: 25px;
+}
+#nav-info li div p {
+    margin: -5px;
+}
+#nav {
+    background: #323946!important;
+}
+.nav-link {
+    font-weight: 700;
+}
+.nav-link.active {
+    color: #43B4E4!important;
+}
